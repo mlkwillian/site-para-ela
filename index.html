@@ -110,7 +110,7 @@
   <!-- Tela de senha -->
   <div class="login" id="login">
     <h1>🔒 Área Secreta</h1>
-    <p>Digite a senha que só você sabe 💕</p>
+    <p>Digite a senha que só você sabe 💕<br>Algo que nós dois gosta em comum</p>
     <input type="password" id="password" placeholder="Senha">
     <br>
     <button onclick="checkPassword()">Entrar</button>
@@ -138,7 +138,7 @@
     // Validação da senha
     function checkPassword() {
       const password = document.getElementById("password").value;
-      const correct = "teamo"; // 🔑 senha
+      const correct = "carros"; // 🔑 senha
       if (password === correct) {
         document.getElementById("login").classList.add("hidden");
         document.getElementById("content").classList.remove("hidden");
